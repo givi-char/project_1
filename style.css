@@ -52,9 +52,10 @@ table {
     height: 1080px;
    
 }
-.paragrap1{
+ .paragrap1{
     color: white;
     
+     
 }
 .design{
     font-size: 27px;
@@ -62,92 +63,93 @@ table {
 }
 .line{
     margin-left: 280px;
-    margin-top: -20px; 
+    margin-top: -100px; 
     display: flex;
 
 
 }
-.box1{
+ .box1{
+    margin-bottom: 90px;
     display: flex;
-    margin-bottom: 10px;
-}
+    
+} 
 .paragrap1{
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
-.paragrap1,.paragrap2,.paragrap3,.paragrap4,.paragrap5{
-    color: white;
-}
+
+
 .box2{
     
     margin-left: 35px;
-    margin-top: 70px;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-top: 35px;
+    transition-property: all; 
+    transition-delay:0.2s ;  
+    transition-duration:0.9s ;  
+    transition-timing-function: ease-out; 
 }
 
 .box3{
     
     margin-left: 35px;
-    margin-top: 30px;
+    margin-top: 35px;
+    transition-property: all; 
+    transition-delay:0.2s ;  
+    transition-duration:0.9s ;  
+    transition-timing-function: ease-out; 
 }
 
-.box4{
-    
-    margin-left: 35px;
-    margin-top: 30px;
+.box3:hover{
+    background-color: #FF2288;
+    margin-left: 50px;
+    /* font-size: 40px; */
+    border-radius: 10px;
+   
 }
+.box2:hover{
+    background-color: #FF2288;
+    margin-left: 50px;
+    /* font-size: 40px; */
+    border-radius: 10px;
 
-.box5{
-    
-    margin-left: 35px;
-    margin-top: 30px;
+
 }
-
-.box6{
-    
-    margin-left: 35px;
-    margin-top: 30px;
-}
-
 a{
     text-decoration: none;
 }
 
-.paragrap6{
-    margin-left: 50px;
-    margin-top: -20px;
-    color: white;
-    font-size: 16px;
-    
-
-
-}
 .paragrap2{
     margin-left: 50px;
     margin-top: -20px;
-    font-size: 16px;
-}
-.paragrap3{
-    margin-left: 50px;
-    margin-top: -20px;
+    color: white;
     font-size: 16px;
 
+}
+.paragrap2:hover{
+    font-size: 50px;
+}
+
+.paragrap3{
+    color: white;
+    margin-top: 90px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.box4{
+    margin-left: 35px;
+    margin-top: 35px;
+    display: flex;
 }
 .paragrap4{
-    margin-left: 50px;
+    display: flex;
+    color: white;
+    margin-left: 70px;
     margin-top: -20px;
-    font-size: 16px;
-
 }
-.paragrap5{
-    margin-left: 50px;
-    margin-top: -20px;
-    font-size: 16px;
-
-}
-.paragrap7{
+.load-more{
     color: white;
     margin-top: 50px;
-    margin-left: 50px;
-    font-size: 16px;
+    margin-left: 35px;
 }
-    
