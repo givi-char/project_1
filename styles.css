@@ -220,6 +220,8 @@ a {
   color: white;
   font-size: 16px;
   margin-left: 16px;
+  font-family: 'avenir-roman';
+
 }
 .paragrap3 {
   color: white;
@@ -236,6 +238,7 @@ a {
   display: flex;
   color: white;
   margin-left: 16px;
+  font-family: 'avenir-roman';
 }
 .load-more {
   color: white;
@@ -267,7 +270,7 @@ a {
   margin-right: 20px;
 }
 .navbar-li2 {
-  margin-left: 450px;
+  margin-left: 400px;
   margin-top: 30px;
   color: #ff2288;
 }
@@ -403,6 +406,7 @@ a {
 .designer {
   flex: 0 0 12.5%;
   margin: 2px; 
+  
 }
 
 .designer-img {
@@ -431,6 +435,7 @@ a {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
 }
 .body{
     overflow-x: hidden;
@@ -442,17 +447,122 @@ a {
 }
 .esigner-text{
     margin-bottom: 17px;
-    color: red;
+    
 
 }
 .btn-follow{
     margin-top: 20px;
-    border-color: #F2F2F2;
+    border-color:  #F2F2F2;
     border-radius: 12px;
     width: 130px;
     height: 50px;
     place-items: center;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+
+   
+}
+.list-title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.aicon1{
+    padding-left: 20px;
+}
+
+
+.footer-icon{
+    margin-top: 30px;
+}
+.section-table{
+    display: flex;
+    
+}
+.title-table{
+    margin: 50px;
+    font-family: 'avenir-black';
+   
+}
+.paragrap-table{
+    margin: 40px;
+    margin-left: 50px;
+    font-family: 'avenir-roman';
     
 
 }
 
+.span-line{
+    border-color: black;
+    border-radius: 12px;
+    border-width: 12px;
+}
+
+.container-holder1{
+    margin-right: 120px;
+
+}
+.list-item1{
+    margin-left: 20px;
+}
+.list-item2{
+    margin-left: 100px;
+
+}
+.list-item3{
+    margin-left: 100px;
+}
+.span12{
+    color:black;
+    font-size: 16px;
+     font-family: 'avenir-black'; 
+     
+}
+
+.span12{
+    font-size: 20px;
+}
+.link-aicon{
+  margin-left: 30px;
+  margin-top: 30px;
+  position: relative;
+
+}
+.iacon-men{
+  position: absolute;
+  top: -20px;
+right: 15px; 
+}
+.line-box.span-line{
+    border-width: 2px;
+    border-color: brown;
+}
+.paragrap-for{
+    font-family: 'avenir-roman';
+
+}
+.paragrap-follow{
+    margin-top: 200px;
+}
+
+
+@media (max-width: 900px){
+    .designer{
+        display: none;
+    }
+
+    }
+.table1{
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+    
+}
+.table1:hover {
+    color: #FF2288;
+}  
+.btn-follow:hover{
+    background-color: white;
+}
